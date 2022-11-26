@@ -30,6 +30,10 @@ body {
   height: 100px;
 }
 
+.active{
+  background-color:#a9a9a9;
+}
+
 /* Resetting CSS */
 
 *,

@@ -19,3 +19,7 @@ P.S. I did forget to add some links, ssoooo next commit it is then.
 ## Create Basic Canvas
 
 I have roughly created the canvas with the divs, it isnt at all how it needs to be other than let say the "shape" of it. Everything is hard-coded at the moment.
+
+## Add eventListener which changes the color
+
+Hovering over the specific pixel will append an "active" class name which will then change the color.
