@@ -4,21 +4,29 @@
 const canvas = document.getElementById("canvas");
 
 // Select input for the number lines for the canvas
-const input = document.querySelector("#input");
+// const input = document.querySelector("#input");
+const btn = document.querySelector("#btn");
 
 // EventListener for the number input
-input.addEventListener("change", changeDivs);
+// input.addEventListener("change", changeDivs);
+btn.addEventListener("click", changeDivs);
 
 function changeDivs(e) {
   if (canvas.innerHTML != "") {
     canvas.innerHTML = "";
     console.log("Cleared");
   }
-  createDivs(e.target.valueAsNumber);
+  // createDivs(e.target.valueAsNumber);
+  createDivs(myPrompt());
+}
+
+function myPrompt(str = "How many boxes per side would you like?") {
+  let number = prompt(str);
+  return number > 100 ? myPrompt("Wrong! Please enter between 2-100.") : number;
 }
 
 // When this first runs it will have 16 divs
-function createDivs(num = 10) {
+function createDivs(num = 16) {
   numSquared = num * num;
   const width = canvas.clientWidth;
   const height = canvas.clientHeight;

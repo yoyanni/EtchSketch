@@ -29,3 +29,7 @@ Hovering over the specific pixel will append an "active" class name which will t
 The number previously used to create the canvas was the total number of squares of the canvas. Now it is the number of rows and columns of the canvas. When creating the square divs the amount is taken into account and adjust the size of the divs accordingly. You can change the amount from the UI and it re-renders the canvas.
 
 P.S. I do not like how the responsive sizes are actioned by inline css.
+
+## Update Canvas according to guide lines
+
+Updated the canvas so it will prompt the user when clikcing the button above the canvas to add the amount of rows and columns that the user inputs and will clear the previous canvas.

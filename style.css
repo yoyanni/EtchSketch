@@ -11,8 +11,8 @@ body {
   justify-content: space-evenly;
   align-items: center;
   background-color: #d55;
-  width: 1000px;
-  height: 600px;
+  width: 1100px;
+  height: 1100px;
 }
 
 .canvas {
@@ -20,8 +20,8 @@ body {
   flex-wrap: wrap;
   align-items: flex-start;
   background-color: white;
-  width: 400px;
-  height: 400px;
+  width: 960px;
+  height: 960px;
 }
 
 .pixel {
@@ -30,8 +30,8 @@ body {
   height: 100px;
 }
 
-.active{
-  background-color:#a9a9a9;
+.active {
+  background-color: #a9a9a9;
 }
 
 /* Resetting CSS */
